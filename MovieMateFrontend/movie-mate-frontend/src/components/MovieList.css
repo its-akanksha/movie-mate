@@ -1,0 +1,46 @@
+.movie-list {
+    padding: 1rem;
+    overflow-y: auto;
+    height: calc(100% - 70px);
+}
+
+.movie-item {
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: rgba(45, 55, 72, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.movie-item:hover {
+    background-color: rgba(45, 55, 72, 0.6);
+    border-left-color: #4299e1;
+    transform: translateX(5px);
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(66, 153, 225, 0.3);
+    border-radius: 50%;
+    border-top-color: #4299e1;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

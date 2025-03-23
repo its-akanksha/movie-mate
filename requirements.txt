@@ -2,6 +2,5 @@ pandas
 numpy
 scikit-learn
 gensim
-surprise
 fastapi
-uvicorn..
+uvicorn
