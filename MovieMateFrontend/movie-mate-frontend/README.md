@@ -43,7 +43,3 @@ Replace the mock implementations in `src/services/recommenderService.js` with yo
 - React Router 6
 - Font Awesome (for icons)
 - Google Fonts (Poppins)
-
-## Acknowledgments
-
-- [Your acknowledgments here]
